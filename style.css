@@ -1,0 +1,101 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body > header{
+  display: flex;
+  background-color: azure;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  font-size: 18px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: rgba(6, 15, 31, 0.877);
+}
+
+main{
+  margin: 0px 20%;
+  background-color: aliceblue;
+}
+
+details {
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaaaaa;
+  margin-bottom: 0.5em;
+}
+
+figure {
+  border: thin silver solid;
+  display: flex;
+  flex-flow: column;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  background-color: #222222;
+  color: white;
+  font: italic smaller sans-serif;
+  padding: 3%;
+  text-align: center;
+}
+
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+
+aside>p {
+  margin: 0.5rem;
+}
+
+section{
+  padding-left: 10px;
+}
+
+article header{
+  background-color: beige;
+}
+
+article header p{
+  margin: 0px;
+}
+
+body > footer{
+  background-color: azure;
+  justify-content: center;
+}
+
+section p {
+  color: #626161;
+}
